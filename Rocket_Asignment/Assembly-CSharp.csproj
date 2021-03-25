@@ -56,9 +56,18 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Scripts\Health.cs" />
+    <Compile Include="Assets\Scripts\NextLevel.cs" />
+    <Compile Include="Assets\Scripts\UnlockDoor.cs" />
+    <Compile Include="Assets\Scripts\Damage.cs" />
+    <Compile Include="Assets\Scripts\Rotate.cs" />
+    <Compile Include="Assets\Scripts\RocketMovement.cs" />
+    <Compile Include="Assets\Scripts\ButtonLevelLoad.cs" />
+    <Compile Include="Assets\Scripts\MyGameManager.cs" />
+    <Compile Include="Assets\Scripts\Update_Health.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\AtomRocket\ReadMe.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
